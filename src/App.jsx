@@ -4,6 +4,7 @@ import Post from './pages/Post';
 import User from './pages/User';
 import Navbar from "./components/layouts/Navbar";
 import Login from "./components/auth/Login";
+import Register from "./components/auth/Register";
 function App() {
 
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/post" element={<Post/>} />
           <Route path="/user" element={<User/>} />
           <Route path="/auth/login" element={<Login/>} /> 
+          <Route path="/auth/register" element={<Register/>} />
         </Routes>
       </div>
     </BrowserRouter>
