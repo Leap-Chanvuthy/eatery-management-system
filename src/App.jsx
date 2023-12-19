@@ -1,16 +1,18 @@
 import { BrowserRouter , Routes , Route } from "react-router-dom";
 import Home from './pages/Home';
-import Post from './pages/Post';
 import User from './pages/User';
 import Navbar from "./components/layouts/Navbar";
 import Login from "./components/auth/Login";
 import Register from "./components/auth/Register";
+import Post from "./components/Newfeeds/Post";
+
+
 function App() {
 
   return (
     <BrowserRouter>
       <div>
-      {/* <Navbar/> */}
+      <Navbar/>
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/post" element={<Post/>} />
