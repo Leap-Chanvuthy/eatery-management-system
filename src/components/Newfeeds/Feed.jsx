@@ -53,7 +53,7 @@ const Feed = () => {
                                 </div>
                                 <p className="font-bold text-sm text-gray-400">Leap Chanvuthy</p>
                             </div>
-                            <div className="flex justify-start pl-11 gap-3">
+                            <div className="flex justify-start pl-11 gap-6">
                                 <div className="flex justify-center gap-2 items-center">
                                     <button onClick={handleClick}><FaHeart className={`${love? 'text-red-500' : 'text-white-500' } `} /></button>
                                     <p className="text-sm">102 Likes</p>
@@ -61,6 +61,9 @@ const Feed = () => {
                                 <div className="flex justify-center gap-2 items-center">
                                     <FaRegCommentDots/>
                                     <p className="text-sm">10 Comments</p>
+                                </div>
+                                <div className="flex justify-center gap-2 items-center">
+                                    <p className="text-sm">2 minutes ago</p>
                                 </div>
                             </div>
                     </div>

@@ -14,7 +14,7 @@ const FollowerList = () => {
     })
 
     return ( 
-        <div className={` ${isOpen ? '' : 'hidden' } absolute w-[50vh] shadow-md bg-base-200 h-[80vh] overflow-y-scroll rounded-lg`}>
+        <div className={` ${isOpen ? '' : 'hidden' } w-[50vh] shadow-md bg-base-200 h-[80vh] overflow-y-scroll rounded-lg`}>
             <div className="flex justify-between items-center px-4">
                 <h5 className="text-center m-2 font-bold">Who You're Followed</h5>
                 <button onClick={toggleEffect} ><RiErrorWarningFill className="text-red-500"/></button>
